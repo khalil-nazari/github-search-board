@@ -4,9 +4,14 @@ import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import { GithubProvider } from './Context/context';
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GithubProvider >
+      <App />  
+    </GithubProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

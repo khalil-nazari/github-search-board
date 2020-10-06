@@ -8,7 +8,41 @@
 
 
 body {
-  background-color: #f7faff;
+  background-color: #eff5ff;
+}
+
+a.outlined_pill_btn {
+  padding: 6px 18px;
+  border-radius: 50rem;
+  border: 1px solid  rgb(0, 114, 134);
+  text-decoration: none;
+  color: rgb(0, 114, 134);
+}
+img.rounded_image {
+  border: none;
+  border-radius: 50%;
+}
+
+.followers_12 {
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 }
 
 // NAVBAR 

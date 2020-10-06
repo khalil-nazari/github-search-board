@@ -2,16 +2,17 @@ import React from 'react'
 
 function Navbar() {
     return (
-        <div className="nav_wrrapper container-fluid bg-white py-3 d-flex justify-content-center ">
-            <div className="user_avatar">
-                <span>KH</span>
-            </div>
-            <div className="user_name">
-                Welcome, <span className="text-uppercase font-weight-bold">khalil@gmail.com</span>
-            </div>
-
-            <div className="logout">
-                <button className="btn font-weight-bold text-secondary">Logout</button>
+        <div className ="bg-white py-3">
+            <div className="container d-flex justify-content-evenly align-items-center">
+                <div className="avatar">
+                    <span className="bg-success rounded-circle p-2 text-light">KN</span>
+                </div>
+                <div className="username">
+                    Welcome, <span className="font-weight-bold text-uppercase">khalil.nazari@gmail.com</span>
+                </div>
+                <div className="logout_btn">
+                    <span className="btn">Logout</span>
+                </div>
             </div>
         </div>
     )
