@@ -3,7 +3,7 @@ import {GithubContext} from '../Context/context'
 
 import {GoRepo, GoGist} from 'react-icons/go'; 
 import {FiUser, FiUserPlus} from 'react-icons/fi'
-import {AiFillBug} from 'react-icons/ai'
+// import {AiFillBug} from 'react-icons/ai'
 import styled from 'styled-components'
 
 function Info() {

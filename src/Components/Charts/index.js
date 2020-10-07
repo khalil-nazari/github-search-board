@@ -1,12 +1,14 @@
-import Bar from "./Charts/Bar";
-import Column from './Charts/Column'; 
-import Doughnut from './Charts/Doughnut'; 
-import Pie from './Charts/Pie'; 
+import Bar from "./Bar";
+import Column from './Column'; 
+import Doughnut from './Doughnut'; 
+import Pie from './Pie'; 
+import ExampleChart from './ExampleChart'; 
 
 
 export {
     Bar, 
     Column, 
     Doughnut, 
-    Pie
+    Pie, 
+    ExampleChart
 }; 
